@@ -1,0 +1,20 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsc && npx mocha --require esm ./dist/*.js"
+  },
+  "dependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "@types/selenium-webdriver": "^4.1.22",
+    "chai": "4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.4.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.20.0",
+    "typescript": "^5.4.5"
+  }
+}
